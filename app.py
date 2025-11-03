@@ -117,16 +117,17 @@ with st.sidebar:
 
 # ---------- Title & Description ----------
 st.title("🧙 TCGplayer Pull List Organizer")
-st.write("Upload a TCGplayer-style CSV and I'll add a **Color** column for all Magic: The Gathering cards using Scryfall data. Then export your organized pull list as a printable checklist.")
-st.caption("Color codes: **W, U, B, R, G, Gd** (multi-color), **C** (colorless/artifacts/Eldrazi), **L** (lands)")
+st.write("Upload a TCGplayer-style CSV and I'll add **Color** and **Foil** columns to your pull list. Magic cards get color data from Scryfall, and all cards get foil detection from the Condition field.")
+st.caption("Color codes: **W, U, B, R, G, Gd** (multi-color), **C** (colorless/artifacts/Eldrazi), **L** (lands) | Foil cards marked with **\*** in checklist")
 st.info("💡 **Currently for Magic: The Gathering only.** We'd love to hear from you if you'd like support for other TCGs!")
 
 with st.expander("How it works"):
     st.markdown(
         """
-        1. For each row with **Product Line == 'Magic'**, we lookup by **Set + Collector Number** against Scryfall.
-        2. If that fails, we fall back to **Set + Exact Name**.
-        3. We fill a new **Color** column using `color_identity` and type hints:
+        1. **Foil Detection**: For all products, we check the **Condition** column. If it contains "Foil", the product name is marked with an asterisk (*) in the checklist, and the CSV includes an "Is Foil" column.
+        2. **Color Detection** (Magic cards only): For each row with **Product Line == 'Magic'**, we lookup by **Set + Collector Number** against Scryfall.
+        3. If that fails, we fall back to **Set + Exact Name**.
+        4. We fill a new **Color** column using `color_identity` and type hints:
            - Land → **L**
            - No color identity but Artifact/Eldrazi → **C**
            - 2+ color identity letters → **Gd**
@@ -205,10 +206,26 @@ def fetch_card(set_code, cn, name):
         return r.json()["data"][0]
     return None
 
+def is_foil(condition):
+    """Check if condition indicates foil - returns '*' for foil, '' for non-foil"""
+    if pd.isna(condition):
+        return ""
+    condition_str = str(condition).lower()
+    return "*" if "foil" in condition_str else ""
+
 def fill_colors(df, set_map):
     df = df.copy()
     if "Color" not in df.columns:
         df["Color"] = ""
+    
+    # Add Foil column for all rows (for CSV export)
+    if "Condition" in df.columns:
+        df["Foil"] = df["Condition"].apply(is_foil)
+        # Also create a Yes/No version for CSV clarity
+        df["Is Foil"] = df["Condition"].apply(lambda x: "Yes" if "foil" in str(x).lower() else "No" if not pd.isna(x) else "No")
+    else:
+        df["Foil"] = ""
+        df["Is Foil"] = "No"
 
     magic_mask = df["Product Line"].astype(str).str.strip().eq("Magic")
     candidates = df[magic_mask].copy()
@@ -262,13 +279,15 @@ def make_printable_checklist(df):
     for c in cols:
         if c not in safe_df.columns:
             safe_df[c] = ""
-    # Only show Magic by default (but keep others if user wants later)
-    out = safe_df[cols].copy()
+    # Add Foil asterisk if not present
+    if "Foil" not in safe_df.columns:
+        safe_df["Foil"] = ""
+    out = safe_df[cols + ["Foil"]].copy()
 
     date_str = dt.datetime.now().strftime("%Y-%m-%d")
     # HTML with print styles
     rows_html = "\n".join([
-        f"<tr><td class='cb'>☐</td><td>{(r['Product Name'])}</td><td>{(r['Quantity'])}</td><td>{(r['Color'])}</td><td>{(r['Set'])}</td><td>{(r['Product Line'])}</td></tr>"
+        f"<tr><td class='cb'>☐</td><td>{(r['Product Name'])}{r['Foil']}</td><td>{(r['Quantity'])}</td><td>{(r['Color'])}</td><td>{(r['Set'])}</td><td>{(r['Product Line'])}</td></tr>"
         for _, r in out.iterrows()
     ])
 
@@ -296,13 +315,13 @@ def make_printable_checklist(df):
 <div class="meta">Generated {date_str}</div>
 <table>
   <thead>
-    <tr><th>✓</th><th>Product Name</th><th>Quantity</th><th>Color</th><th>Set</th><th>Product Line</th></tr>
+    <tr><th>✓</th><th>Product Name*</th><th>Quantity</th><th>Color</th><th>Set</th><th>Product Line</th></tr>
   </thead>
   <tbody>
 {rows_html}
   </tbody>
 </table>
-<div class="footer">Tip: Use your browser's Print dialog to save as PDF or print directly.</div>
+<div class="footer">* = Foil card | Tip: Use your browser's Print dialog to save as PDF or print directly.</div>
 </body>
 </html>"""
     return html
