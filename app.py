@@ -274,7 +274,7 @@ def fill_colors(df, set_map):
 
 def make_printable_checklist(df):
     # Build checklist HTML
-    cols = ["Product Name", "Quantity", "Color", "Set", "Product Line"]
+    cols = ["Product Name", "Quantity", "Color", "Number", "Set", "Product Line"]
     safe_df = df.copy()
     for c in cols:
         if c not in safe_df.columns:
@@ -283,11 +283,20 @@ def make_printable_checklist(df):
     if "Foil" not in safe_df.columns:
         safe_df["Foil"] = ""
     out = safe_df[cols + ["Foil"]].copy()
+    
+    # Calculate total cards to pull
+    try:
+        # Try to convert Quantity to numeric, handling any .0 floats
+        qty_series = pd.to_numeric(out["Quantity"], errors='coerce').fillna(0)
+        total_cards = int(qty_series.sum())
+    except Exception:
+        total_cards = 0
+    total_unique_cards = len(out)
 
     date_str = dt.datetime.now().strftime("%Y-%m-%d")
     # HTML with print styles
     rows_html = "\n".join([
-        f"<tr><td class='cb'>☐</td><td>{(r['Product Name'])}{r['Foil']}</td><td>{(r['Quantity'])}</td><td>{(r['Color'])}</td><td>{(r['Set'])}</td><td>{(r['Product Line'])}</td></tr>"
+        f"<tr><td class='cb'>☐</td><td>{(r['Product Name'])}{r['Foil']}</td><td>{(r['Quantity'])}</td><td>{(r['Color'])}</td><td>{(r['Number'])}</td><td>{(r['Set'])}</td><td>{(r['Product Line'])}</td></tr>"
         for _, r in out.iterrows()
     ])
 
@@ -313,9 +322,12 @@ def make_printable_checklist(df):
 <body>
 <h1>TCGplayer Pull List Checklist</h1>
 <div class="meta">Generated {date_str}</div>
+<div class="meta" style="margin-bottom: 15px;">
+  <strong>Total Cards to Pull: {total_cards}</strong> | <strong>Unique Items: {total_unique_cards}</strong>
+</div>
 <table>
   <thead>
-    <tr><th>✓</th><th>Product Name*</th><th>Quantity</th><th>Color</th><th>Set</th><th>Product Line</th></tr>
+    <tr><th>✓</th><th>Product Name*</th><th>Quantity</th><th>Color</th><th>Number</th><th>Set</th><th>Product Line</th></tr>
   </thead>
   <tbody>
 {rows_html}
