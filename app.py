@@ -214,11 +214,14 @@ def get_pokemon_holofoil_type(condition, product_line):
     if pd.isna(condition) or pd.isna(product_line):
         return ""
     product_line_str = str(product_line).strip()
-    if product_line_str != "Pokemon":
+    # Handle both "Pokemon" and "Pokemon Japan" product lines
+    if product_line_str not in ["Pokemon", "Pokemon Japan"]:
         return ""
     condition_str = str(condition).lower()
+    # Check for reverse holofoil first (more specific)
     if "reverse holofoil" in condition_str:
         return "RH"
+    # Check for holofoil (handles "Near Mint Holofoil", "Near Mint Holofoil - Japanese", etc.)
     if "holofoil" in condition_str:
         return "H"
     return ""
@@ -302,6 +305,29 @@ def make_printable_checklist(df):
     if "Pokemon Holofoil" not in safe_df.columns:
         safe_df["Pokemon Holofoil"] = ""
     out = safe_df[cols + ["Foil", "Pokemon Holofoil"]].copy()
+    
+    # Sort by Product Line, Set, Color, then Foil type
+    # Create a sort key for foil type: non-foil first, then foil, then holofoil types
+    def get_foil_sort_key(row):
+        foil_type = str(row.get("Pokemon Holofoil", "")).strip()
+        has_foil = str(row.get("Foil", "")).strip() != ""
+        # Non-foil = 0, regular foil = 1, holofoil = 2, reverse holofoil = 3
+        if foil_type == "RH":
+            return 3
+        elif foil_type == "H":
+            return 2
+        elif has_foil:
+            return 1
+        else:
+            return 0
+    
+    out["_foil_sort"] = out.apply(get_foil_sort_key, axis=1)
+    out = out.sort_values(
+        by=["Product Line", "Set", "Color", "_foil_sort"],
+        ascending=[True, True, True, True],
+        na_position="last"
+    )
+    out = out.drop(columns=["_foil_sort"])
     
     # Calculate total cards to pull
     try:
