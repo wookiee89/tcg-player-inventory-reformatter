@@ -8,6 +8,17 @@ import pandas as pd
 import streamlit as st
 import datetime as dt
 
+def load_set_code_map():
+    """Load set code mapping from JSON file, with fallback to empty dict"""
+    try:
+        with open('set_code_map.json', 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+    except Exception as e:
+        st.warning(f"Could not load set_code_map.json: {e}. Using empty mapping.")
+        return {}
+
 st.set_page_config(page_title="TCGplayer Pull List Organizer", page_icon="🧙", layout="wide")
 
 # WOOBUL Collectibles brand color (dark teal/deep blue from logo)
@@ -135,23 +146,8 @@ with st.expander("How it works"):
         """
     )
 
-DEFAULT_SET_CODE_MAP = {
-    "Aetherdrift": "dft",
-    "Commander Legends: Battle for Baldur's Gate": "clb",
-    "Commander Masters": "cmm",
-    "Commander: Dominaria United": "dmc",
-    "Commander: Edge of Eternities": "eoc",
-    "Commander: Kamigawa: Neon Dynasty": "nec",
-    "Dominaria United": "dmu",
-    "Double Masters 2022": "2x2",
-    "Duskmourn: House of Horror": "dsk",
-    "Edge of Eternities": "eoe",
-    "Marvel's Spider-Man": "spm",
-    "Murders at Karlov Manor": "mkm",
-    "Streets of New Capenna": "snc",
-    "Tarkir: Dragonstorm": "tdm",
-    "The List Reprints": "plst",
-}
+# Load set code mapping from external JSON file
+DEFAULT_SET_CODE_MAP = load_set_code_map()
 
 # Default settings
 throttle = 0.08
@@ -213,6 +209,20 @@ def is_foil(condition):
     condition_str = str(condition).lower()
     return "*" if "foil" in condition_str else ""
 
+def get_pokemon_holofoil_type(condition, product_line):
+    """For Pokemon cards, detect if holofoil or reverse holofoil. Returns 'RH' for reverse, 'H' for holofoil, '' for non-foil"""
+    if pd.isna(condition) or pd.isna(product_line):
+        return ""
+    product_line_str = str(product_line).strip()
+    if product_line_str != "Pokemon":
+        return ""
+    condition_str = str(condition).lower()
+    if "reverse holofoil" in condition_str:
+        return "RH"
+    if "holofoil" in condition_str:
+        return "H"
+    return ""
+
 def fill_colors(df, set_map):
     df = df.copy()
     if "Color" not in df.columns:
@@ -223,9 +233,15 @@ def fill_colors(df, set_map):
         df["Foil"] = df["Condition"].apply(is_foil)
         # Also create a Yes/No version for CSV clarity
         df["Is Foil"] = df["Condition"].apply(lambda x: "Yes" if "foil" in str(x).lower() else "No" if not pd.isna(x) else "No")
+        # Add Pokemon holofoil type column
+        if "Product Line" in df.columns:
+            df["Pokemon Holofoil"] = df.apply(lambda row: get_pokemon_holofoil_type(row.get("Condition", ""), row.get("Product Line", "")), axis=1)
+        else:
+            df["Pokemon Holofoil"] = ""
     else:
         df["Foil"] = ""
         df["Is Foil"] = "No"
+        df["Pokemon Holofoil"] = ""
 
     magic_mask = df["Product Line"].astype(str).str.strip().eq("Magic")
     candidates = df[magic_mask].copy()
@@ -282,7 +298,10 @@ def make_printable_checklist(df):
     # Add Foil asterisk if not present
     if "Foil" not in safe_df.columns:
         safe_df["Foil"] = ""
-    out = safe_df[cols + ["Foil"]].copy()
+    # Add Pokemon Holofoil column if not present
+    if "Pokemon Holofoil" not in safe_df.columns:
+        safe_df["Pokemon Holofoil"] = ""
+    out = safe_df[cols + ["Foil", "Pokemon Holofoil"]].copy()
     
     # Calculate total cards to pull
     try:
@@ -296,7 +315,7 @@ def make_printable_checklist(df):
     date_str = dt.datetime.now().strftime("%Y-%m-%d")
     # HTML with print styles
     rows_html = "\n".join([
-        f"<tr><td class='cb'>☐</td><td>{(r['Product Name'])}{r['Foil']}</td><td>{(r['Quantity'])}</td><td>{(r['Color'])}</td><td>{(r['Number'])}</td><td>{(r['Set'])}</td><td>{(r['Product Line'])}</td></tr>"
+        f"<tr><td class='cb'>☐</td><td>{(r['Product Name'])}{r['Foil']}{' (' + r['Pokemon Holofoil'] + ')' if r['Pokemon Holofoil'] else ''}</td><td>{(r['Quantity'])}</td><td>{(r['Color'])}</td><td>{(r['Number'])}</td><td>{(r['Set'])}</td><td>{(r['Product Line'])}</td></tr>"
         for _, r in out.iterrows()
     ])
 
@@ -333,7 +352,7 @@ def make_printable_checklist(df):
 {rows_html}
   </tbody>
 </table>
-<div class="footer">* = Foil card | Tip: Use your browser's Print dialog to save as PDF or print directly.</div>
+<div class="footer">* = Foil card | (H) = Holofoil, (RH) = Reverse Holofoil (Pokemon) | Tip: Use your browser's Print dialog to save as PDF or print directly.</div>
 </body>
 </html>"""
     return html
