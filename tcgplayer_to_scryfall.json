@@ -1,0 +1,2300 @@
+{
+  "30th Anniversary Edition": {
+    "tcgplayer_code": "30A",
+    "scryfall_name": "30th Anniversary Edition",
+    "scryfall_code": "30a",
+    "match_type": "exact"
+  },
+  "Adventures in the Forgotten Realms": {
+    "tcgplayer_code": "AFR",
+    "scryfall_name": "Adventures in the Forgotten Realms Art Series",
+    "scryfall_code": "aafr",
+    "match_type": "exact"
+  },
+  "Aether Revolt": {
+    "tcgplayer_code": "AER",
+    "scryfall_name": "Aether Revolt",
+    "scryfall_code": "aer",
+    "match_type": "exact"
+  },
+  "Aetherdrift": {
+    "tcgplayer_code": "DFT",
+    "scryfall_name": "Aetherdrift Commander",
+    "scryfall_code": "drc",
+    "match_type": "exact"
+  },
+  "Alara Reborn": {
+    "tcgplayer_code": "ARB",
+    "scryfall_name": "Alara Reborn",
+    "scryfall_code": "arb",
+    "match_type": "exact"
+  },
+  "Alliances": {
+    "tcgplayer_code": "ALL",
+    "scryfall_name": "Alliances",
+    "scryfall_code": "all",
+    "match_type": "exact"
+  },
+  "Amonkhet": {
+    "tcgplayer_code": "AKH",
+    "scryfall_name": "Amonkhet",
+    "scryfall_code": "akh",
+    "match_type": "exact"
+  },
+  "Anthologies": {
+    "tcgplayer_code": "ATH",
+    "scryfall_name": "Anthologies",
+    "scryfall_code": "ath",
+    "match_type": "exact"
+  },
+  "Antiquities": {
+    "tcgplayer_code": "ATQ",
+    "scryfall_name": "Antiquities",
+    "scryfall_code": "atq",
+    "match_type": "exact"
+  },
+  "Apocalypse": {
+    "tcgplayer_code": "APC",
+    "scryfall_name": "Apocalypse",
+    "scryfall_code": "apc",
+    "match_type": "exact"
+  },
+  "Arabian Nights": {
+    "tcgplayer_code": "ARN",
+    "scryfall_name": "Arabian Nights",
+    "scryfall_code": "arn",
+    "match_type": "exact"
+  },
+  "Archenemy": {
+    "tcgplayer_code": "ARC",
+    "scryfall_name": "Archenemy",
+    "scryfall_code": "arc",
+    "match_type": "exact"
+  },
+  "Archenemy: Duskmourn": {
+    "tcgplayer_code": "A:DSC",
+    "scryfall_name": "Archenemy",
+    "scryfall_code": "arc",
+    "match_type": "partial"
+  },
+  "Archenemy: Nicol Bolas": {
+    "tcgplayer_code": "AC2",
+    "scryfall_name": "Archenemy: Nicol Bolas",
+    "scryfall_code": "e01",
+    "match_type": "exact"
+  },
+  "Arena Promos": {
+    "tcgplayer_code": "ARENA",
+    "scryfall_name": "MTG Arena Promos",
+    "scryfall_code": "pana",
+    "match_type": "partial"
+  },
+  "Art Series: Adventures in the Forgotten Realms": {
+    "tcgplayer_code": "ASAFR",
+    "scryfall_name": "Adventures in the Forgotten Realms Art Series",
+    "scryfall_code": "aafr",
+    "match_type": "exact"
+  },
+  "Art Series: Aetherdrift": {
+    "tcgplayer_code": "ASDFT",
+    "scryfall_name": "Aetherdrift Commander",
+    "scryfall_code": "drc",
+    "match_type": "exact"
+  },
+  "Art Series: Avatar: The Last Airbender": {
+    "tcgplayer_code": "ASTLA",
+    "scryfall_name": "Avatar: The Last Airbender Eternal",
+    "scryfall_code": "tle",
+    "match_type": "exact"
+  },
+  "Art Series: Bloomburrow": {
+    "tcgplayer_code": "ASBLB",
+    "scryfall_name": "Bloomburrow Commander",
+    "scryfall_code": "blc",
+    "match_type": "exact"
+  },
+  "Art Series: Commander Legends: Battle for Baldur's Gate": {
+    "tcgplayer_code": "ASCLB",
+    "scryfall_name": "Commander Legends: Battle for Baldur's Gate",
+    "scryfall_code": "clb",
+    "match_type": "exact"
+  },
+  "Art Series: Commander Masters": {
+    "tcgplayer_code": "ASCMM",
+    "scryfall_name": "Eternal Masters",
+    "scryfall_code": "ema",
+    "match_type": "exact"
+  },
+  "Art Series: Dominaria United": {
+    "tcgplayer_code": "ASDMU",
+    "scryfall_name": "Dominaria United Commander",
+    "scryfall_code": "dmc",
+    "match_type": "exact"
+  },
+  "Art Series: Duskmourn: House of Horror": {
+    "tcgplayer_code": "ASDSK",
+    "scryfall_name": "Duskmourn: House of Horror Commander",
+    "scryfall_code": "dsc",
+    "match_type": "exact"
+  },
+  "Art Series: Edge of Eternities": {
+    "tcgplayer_code": "ASEOE",
+    "scryfall_name": "Edge of Eternities Commander",
+    "scryfall_code": "eoc",
+    "match_type": "exact"
+  },
+  "Art Series: FINAL FANTASY": {
+    "tcgplayer_code": "ASFIN",
+    "scryfall_name": "Final Fantasy Commander Art Series",
+    "scryfall_code": "afic",
+    "match_type": "exact"
+  },
+  "Art Series: Foundations": {
+    "tcgplayer_code": "ASFDN",
+    "scryfall_name": "Foundations Commander",
+    "scryfall_code": "fdc",
+    "match_type": "exact"
+  },
+  "Art Series: Innistrad Remastered": {
+    "tcgplayer_code": "ASINR",
+    "scryfall_name": "Innistrad Remastered Art Series",
+    "scryfall_code": "ainr",
+    "match_type": "exact"
+  },
+  "Art Series: Innistrad: Crimson Vow": {
+    "tcgplayer_code": "ASVOW",
+    "scryfall_name": "Innistrad: Crimson Vow",
+    "scryfall_code": "vow",
+    "match_type": "exact"
+  },
+  "Art Series: Innistrad: Midnight Hunt": {
+    "tcgplayer_code": "ASMID",
+    "scryfall_name": "Innistrad: Midnight Hunt",
+    "scryfall_code": "mid",
+    "match_type": "exact"
+  },
+  "Art Series: Kaldheim": {
+    "tcgplayer_code": "ASKHM",
+    "scryfall_name": "Kaldheim Commander",
+    "scryfall_code": "khc",
+    "match_type": "exact"
+  },
+  "Art Series: Kamigawa: Neon Dynasty": {
+    "tcgplayer_code": "ASNEO",
+    "scryfall_name": "Kamigawa: Neon Dynasty",
+    "scryfall_code": "neo",
+    "match_type": "exact"
+  },
+  "Art Series: Lorwyn Eclipsed": {
+    "tcgplayer_code": "ASECL",
+    "scryfall_name": "Lorwyn Eclipsed",
+    "scryfall_code": "ecl",
+    "match_type": "exact"
+  },
+  "Art Series: March of the Machine": {
+    "tcgplayer_code": "ASMOM",
+    "scryfall_name": "March of the Machine Commander",
+    "scryfall_code": "moc",
+    "match_type": "exact"
+  },
+  "Art Series: Marvel's Spider-Man": {
+    "tcgplayer_code": "ASSPM",
+    "scryfall_name": "Marvel's Spider-Man Eternal",
+    "scryfall_code": "spe",
+    "match_type": "exact"
+  },
+  "Art Series: Modern Horizons": {
+    "tcgplayer_code": "ASMH1",
+    "scryfall_name": "Modern Horizons Art Series",
+    "scryfall_code": "amh1",
+    "match_type": "exact"
+  },
+  "Art Series: Modern Horizons 2": {
+    "tcgplayer_code": "ASMH2",
+    "scryfall_name": "Modern Horizons 2 Art Series",
+    "scryfall_code": "amh2",
+    "match_type": "exact"
+  },
+  "Art Series: Modern Horizons 3": {
+    "tcgplayer_code": "ASMH3",
+    "scryfall_name": "Modern Horizons 3 Commander",
+    "scryfall_code": "m3c",
+    "match_type": "exact"
+  },
+  "Art Series: Murders at Karlov Manor": {
+    "tcgplayer_code": "ASMKM",
+    "scryfall_name": "Murders at Karlov Manor Commander",
+    "scryfall_code": "mkc",
+    "match_type": "exact"
+  },
+  "Art Series: Outlaws of Thunder Junction": {
+    "tcgplayer_code": "ASOTJ",
+    "scryfall_name": "Outlaws of Thunder Junction Commander",
+    "scryfall_code": "otc",
+    "match_type": "exact"
+  },
+  "Art Series: Phyrexia: All Will Be One": {
+    "tcgplayer_code": "ASONE",
+    "scryfall_name": "Phyrexia: All Will Be One Commander",
+    "scryfall_code": "onc",
+    "match_type": "exact"
+  },
+  "Art Series: Streets of New Capenna": {
+    "tcgplayer_code": "ASSNC",
+    "scryfall_name": "Streets of New Capenna",
+    "scryfall_code": "snc",
+    "match_type": "exact"
+  },
+  "Art Series: Strixhaven": {
+    "tcgplayer_code": "ASSTX",
+    "scryfall_name": "Strixhaven Art Series",
+    "scryfall_code": "astx",
+    "match_type": "exact"
+  },
+  "Art Series: Tarkir: Dragonstorm": {
+    "tcgplayer_code": "AATDM",
+    "scryfall_name": "Tarkir: Dragonstorm Commander",
+    "scryfall_code": "tdc",
+    "match_type": "exact"
+  },
+  "Art Series: The Brothers' War": {
+    "tcgplayer_code": "ASBRO",
+    "scryfall_name": "The Brothers' War Commander",
+    "scryfall_code": "brc",
+    "match_type": "exact"
+  },
+  "Art Series: The Lost Caverns of Ixalan": {
+    "tcgplayer_code": "ASLCI",
+    "scryfall_name": "The Lost Caverns of Ixalan Commander",
+    "scryfall_code": "lcc",
+    "match_type": "exact"
+  },
+  "Art Series: Universes Beyond: Assassin's Creed": {
+    "tcgplayer_code": "ASACR",
+    "scryfall_name": "Assassin's Creed Art Series",
+    "scryfall_code": "aacr",
+    "match_type": "exact"
+  },
+  "Art Series: Universes Beyond: The Lord of the Rings: Tales of Middle-earth": {
+    "tcgplayer_code": "ASLTR",
+    "scryfall_name": "The Lord of the Rings: Tales of Middle-earth",
+    "scryfall_code": "ltr",
+    "match_type": "exact"
+  },
+  "Art Series: Wilds of Eldraine": {
+    "tcgplayer_code": "ASWOE",
+    "scryfall_name": "Wilds of Eldraine Commander",
+    "scryfall_code": "woc",
+    "match_type": "exact"
+  },
+  "Art Series: Zendikar Rising": {
+    "tcgplayer_code": "ASZNR",
+    "scryfall_name": "Zendikar Rising Commander",
+    "scryfall_code": "znc",
+    "match_type": "exact"
+  },
+  "Avacyn Restored": {
+    "tcgplayer_code": "AVR",
+    "scryfall_name": "Avacyn Restored",
+    "scryfall_code": "avr",
+    "match_type": "exact"
+  },
+  "Avatar: The Last Airbender": {
+    "tcgplayer_code": "TLA",
+    "scryfall_name": "Avatar: The Last Airbender Eternal",
+    "scryfall_code": "tle",
+    "match_type": "exact"
+  },
+  "Avatar: The Last Airbender: Eternal-Legal": {
+    "tcgplayer_code": "TLE",
+    "scryfall_name": "Avatar: The Last Airbender Eternal",
+    "scryfall_code": "tle",
+    "match_type": "exact"
+  },
+  "Battle for Zendikar": {
+    "tcgplayer_code": "BFZ",
+    "scryfall_name": "Battle for Zendikar",
+    "scryfall_code": "bfz",
+    "match_type": "exact"
+  },
+  "Battle Royale Box Set": {
+    "tcgplayer_code": "BRB",
+    "scryfall_name": "Battle Royale Box Set",
+    "scryfall_code": "brb",
+    "match_type": "exact"
+  },
+  "Battlebond": {
+    "tcgplayer_code": "BBD",
+    "scryfall_name": "Battlebond",
+    "scryfall_code": "bbd",
+    "match_type": "exact"
+  },
+  "Beatdown Box Set": {
+    "tcgplayer_code": "BTD",
+    "scryfall_name": "Beatdown Box Set",
+    "scryfall_code": "btd",
+    "match_type": "exact"
+  },
+  "Betrayers of Kamigawa": {
+    "tcgplayer_code": "BOK",
+    "scryfall_name": "Betrayers of Kamigawa",
+    "scryfall_code": "bok",
+    "match_type": "exact"
+  },
+  "Bloomburrow": {
+    "tcgplayer_code": "BLB",
+    "scryfall_name": "Bloomburrow Commander",
+    "scryfall_code": "blc",
+    "match_type": "exact"
+  },
+  "Born of the Gods": {
+    "tcgplayer_code": "BNG",
+    "scryfall_name": "Born of the Gods",
+    "scryfall_code": "bng",
+    "match_type": "exact"
+  },
+  "Challenger Decks": {
+    "tcgplayer_code": "Q01",
+    "scryfall_name": "Challenger Decks 2022",
+    "scryfall_code": "q07",
+    "match_type": "partial"
+  },
+  "Champions of Kamigawa": {
+    "tcgplayer_code": "CHK",
+    "scryfall_name": "Champions of Kamigawa",
+    "scryfall_code": "chk",
+    "match_type": "exact"
+  },
+  "Chronicles": {
+    "tcgplayer_code": "CHR",
+    "scryfall_name": "Chronicles",
+    "scryfall_code": "chr",
+    "match_type": "exact"
+  },
+  "Classic Sixth Edition": {
+    "tcgplayer_code": "6ED",
+    "scryfall_name": "Classic Sixth Edition",
+    "scryfall_code": "6ed",
+    "match_type": "exact"
+  },
+  "Coldsnap": {
+    "tcgplayer_code": "CSP",
+    "scryfall_name": "Coldsnap",
+    "scryfall_code": "csp",
+    "match_type": "exact"
+  },
+  "Coldsnap Theme Deck Reprints": {
+    "tcgplayer_code": "CTD",
+    "scryfall_name": "Coldsnap",
+    "scryfall_code": "csp",
+    "match_type": "partial"
+  },
+  "Collector's Edition": {
+    "tcgplayer_code": "CED",
+    "scryfall_name": "Collectors' Edition",
+    "scryfall_code": "ced",
+    "match_type": "exact"
+  },
+  "Commander": {
+    "tcgplayer_code": "CMD",
+    "scryfall_name": "15th Anniversary Cards",
+    "scryfall_code": "p15a",
+    "match_type": "partial"
+  },
+  "Commander 2013": {
+    "tcgplayer_code": "C13",
+    "scryfall_name": "Commander 2013",
+    "scryfall_code": "c13",
+    "match_type": "exact"
+  },
+  "Commander 2014": {
+    "tcgplayer_code": "C14",
+    "scryfall_name": "Commander 2014",
+    "scryfall_code": "c14",
+    "match_type": "exact"
+  },
+  "Commander 2015": {
+    "tcgplayer_code": "C15",
+    "scryfall_name": "Commander 2015",
+    "scryfall_code": "c15",
+    "match_type": "exact"
+  },
+  "Commander 2016": {
+    "tcgplayer_code": "C16",
+    "scryfall_name": "Commander 2016",
+    "scryfall_code": "c16",
+    "match_type": "exact"
+  },
+  "Commander 2017": {
+    "tcgplayer_code": "C17",
+    "scryfall_name": "Commander 2017",
+    "scryfall_code": "c17",
+    "match_type": "exact"
+  },
+  "Commander 2018": {
+    "tcgplayer_code": "C18",
+    "scryfall_name": "Commander 2018",
+    "scryfall_code": "c18",
+    "match_type": "exact"
+  },
+  "Commander 2019": {
+    "tcgplayer_code": "C19",
+    "scryfall_name": "Commander 2019",
+    "scryfall_code": "c19",
+    "match_type": "exact"
+  },
+  "Commander 2020": {
+    "tcgplayer_code": "C20",
+    "scryfall_name": "Commander 2020",
+    "scryfall_code": "c20",
+    "match_type": "exact"
+  },
+  "Commander 2021": {
+    "tcgplayer_code": "C21",
+    "scryfall_name": "Commander 2021",
+    "scryfall_code": "c21",
+    "match_type": "exact"
+  },
+  "Commander Anthology": {
+    "tcgplayer_code": "CMA",
+    "scryfall_name": "Commander Anthology",
+    "scryfall_code": "cma",
+    "match_type": "exact"
+  },
+  "Commander Anthology Volume II": {
+    "tcgplayer_code": "CM2",
+    "scryfall_name": "Commander Anthology Volume II",
+    "scryfall_code": "cm2",
+    "match_type": "exact"
+  },
+  "Commander Collection: Black": {
+    "tcgplayer_code": "CC2",
+    "scryfall_name": "Commander Collection: Black",
+    "scryfall_code": "cc2",
+    "match_type": "exact"
+  },
+  "Commander Collection: Green": {
+    "tcgplayer_code": "CC1",
+    "scryfall_name": "Commander Collection: Green",
+    "scryfall_code": "cc1",
+    "match_type": "exact"
+  },
+  "Commander Legends": {
+    "tcgplayer_code": "CMR",
+    "scryfall_name": "Legends",
+    "scryfall_code": "leg",
+    "match_type": "exact"
+  },
+  "Commander Legends: Battle for Baldur's Gate": {
+    "tcgplayer_code": "CLB",
+    "scryfall_name": "Commander Legends: Battle for Baldur's Gate",
+    "scryfall_code": "clb",
+    "match_type": "exact"
+  },
+  "Commander Masters": {
+    "tcgplayer_code": "CMM",
+    "scryfall_name": "Eternal Masters",
+    "scryfall_code": "ema",
+    "match_type": "exact"
+  },
+  "Commander: Adventures in the Forgotten Realms": {
+    "tcgplayer_code": "AFC",
+    "scryfall_name": "Adventures in the Forgotten Realms Art Series",
+    "scryfall_code": "aafr",
+    "match_type": "exact"
+  },
+  "Commander: Aetherdrift": {
+    "tcgplayer_code": "DRC",
+    "scryfall_name": "Aetherdrift Commander",
+    "scryfall_code": "drc",
+    "match_type": "exact"
+  },
+  "Commander: Bloomburrow": {
+    "tcgplayer_code": "BLC",
+    "scryfall_name": "Bloomburrow Commander",
+    "scryfall_code": "blc",
+    "match_type": "exact"
+  },
+  "Commander: Dominaria United": {
+    "tcgplayer_code": "DMC",
+    "scryfall_name": "Dominaria United Commander",
+    "scryfall_code": "dmc",
+    "match_type": "exact"
+  },
+  "Commander: Duskmourn: House of Horror": {
+    "tcgplayer_code": "DSC",
+    "scryfall_name": "Duskmourn: House of Horror Commander",
+    "scryfall_code": "dsc",
+    "match_type": "exact"
+  },
+  "Commander: Edge of Eternities": {
+    "tcgplayer_code": "EOC",
+    "scryfall_name": "Edge of Eternities Commander",
+    "scryfall_code": "eoc",
+    "match_type": "exact"
+  },
+  "Commander: FINAL FANTASY": {
+    "tcgplayer_code": "FIC",
+    "scryfall_name": "Final Fantasy Commander Art Series",
+    "scryfall_code": "afic",
+    "match_type": "exact"
+  },
+  "Commander: Foundations": {
+    "tcgplayer_code": "FDC",
+    "scryfall_name": "Foundations Commander",
+    "scryfall_code": "fdc",
+    "match_type": "exact"
+  },
+  "Commander: Innistrad: Crimson Vow": {
+    "tcgplayer_code": "VOC",
+    "scryfall_name": "Innistrad: Crimson Vow",
+    "scryfall_code": "vow",
+    "match_type": "exact"
+  },
+  "Commander: Innistrad: Midnight Hunt": {
+    "tcgplayer_code": "MIC",
+    "scryfall_name": "Innistrad: Midnight Hunt",
+    "scryfall_code": "mid",
+    "match_type": "exact"
+  },
+  "Commander: Kaldheim": {
+    "tcgplayer_code": "KHC",
+    "scryfall_name": "Kaldheim Commander",
+    "scryfall_code": "khc",
+    "match_type": "exact"
+  },
+  "Commander: Kamigawa: Neon Dynasty": {
+    "tcgplayer_code": "NEC",
+    "scryfall_name": "Kamigawa: Neon Dynasty",
+    "scryfall_code": "neo",
+    "match_type": "exact"
+  },
+  "Commander: Lorwyn Eclipsed": {
+    "tcgplayer_code": "ECC",
+    "scryfall_name": "Lorwyn Eclipsed",
+    "scryfall_code": "ecl",
+    "match_type": "exact"
+  },
+  "Commander: March of the Machine": {
+    "tcgplayer_code": "MOC",
+    "scryfall_name": "March of the Machine Commander",
+    "scryfall_code": "moc",
+    "match_type": "exact"
+  },
+  "Commander: Marvel Super Heroes": {
+    "tcgplayer_code": "MSC",
+    "scryfall_name": "Marvel Super Heroes Commander",
+    "scryfall_code": "msc",
+    "match_type": "exact"
+  },
+  "Commander: Modern Horizons 3": {
+    "tcgplayer_code": "M3C",
+    "scryfall_name": "Modern Horizons 3 Commander",
+    "scryfall_code": "m3c",
+    "match_type": "exact"
+  },
+  "Commander: Murders at Karlov Manor": {
+    "tcgplayer_code": "MKC",
+    "scryfall_name": "Murders at Karlov Manor Commander",
+    "scryfall_code": "mkc",
+    "match_type": "exact"
+  },
+  "Commander: Outlaws of Thunder Junction": {
+    "tcgplayer_code": "OTC",
+    "scryfall_name": "Outlaws of Thunder Junction Commander",
+    "scryfall_code": "otc",
+    "match_type": "exact"
+  },
+  "Commander: Phyrexia: All Will Be One": {
+    "tcgplayer_code": "ONC",
+    "scryfall_name": "Phyrexia: All Will Be One Commander",
+    "scryfall_code": "onc",
+    "match_type": "exact"
+  },
+  "Commander: Streets of New Capenna": {
+    "tcgplayer_code": "NCC",
+    "scryfall_name": "Streets of New Capenna",
+    "scryfall_code": "snc",
+    "match_type": "exact"
+  },
+  "Commander: Tarkir: Dragonstorm": {
+    "tcgplayer_code": "TDC",
+    "scryfall_name": "Tarkir: Dragonstorm Commander",
+    "scryfall_code": "tdc",
+    "match_type": "exact"
+  },
+  "Commander: Teenage Mutant Ninja Turtles": {
+    "tcgplayer_code": "TMC",
+    "scryfall_name": "Teenage Mutant Ninja Turtles Eternal",
+    "scryfall_code": "tmc",
+    "match_type": "exact"
+  },
+  "Commander: The Brothers' War": {
+    "tcgplayer_code": "BRC",
+    "scryfall_name": "The Brothers' War Commander",
+    "scryfall_code": "brc",
+    "match_type": "exact"
+  },
+  "Commander: The Lord of the Rings: Tales of Middle-earth": {
+    "tcgplayer_code": "LTC",
+    "scryfall_name": "The Lord of the Rings: Tales of Middle-earth",
+    "scryfall_code": "ltr",
+    "match_type": "exact"
+  },
+  "Commander: The Lost Caverns of Ixalan": {
+    "tcgplayer_code": "LCC",
+    "scryfall_name": "The Lost Caverns of Ixalan Commander",
+    "scryfall_code": "lcc",
+    "match_type": "exact"
+  },
+  "Commander: Wilds of Eldraine": {
+    "tcgplayer_code": "WOC",
+    "scryfall_name": "Wilds of Eldraine Commander",
+    "scryfall_code": "woc",
+    "match_type": "exact"
+  },
+  "Commander: Zendikar Rising": {
+    "tcgplayer_code": "ZNC",
+    "scryfall_name": "Zendikar Rising Commander",
+    "scryfall_code": "znc",
+    "match_type": "exact"
+  },
+  "Commander's Arsenal": {
+    "tcgplayer_code": "CM1",
+    "scryfall_name": "Commander's Arsenal",
+    "scryfall_code": "cm1",
+    "match_type": "exact"
+  },
+  "Conflux": {
+    "tcgplayer_code": "CON",
+    "scryfall_name": "Conflux",
+    "scryfall_code": "con",
+    "match_type": "exact"
+  },
+  "Conspiracy": {
+    "tcgplayer_code": "CNS",
+    "scryfall_name": "Conspiracy",
+    "scryfall_code": "cns",
+    "match_type": "exact"
+  },
+  "Conspiracy: Take the Crown": {
+    "tcgplayer_code": "CN2",
+    "scryfall_name": "Conspiracy: Take the Crown",
+    "scryfall_code": "cn2",
+    "match_type": "exact"
+  },
+  "Core Set 2019": {
+    "tcgplayer_code": "M19",
+    "scryfall_name": "Core Set 2019",
+    "scryfall_code": "m19",
+    "match_type": "exact"
+  },
+  "Core Set 2020": {
+    "tcgplayer_code": "M20",
+    "scryfall_name": "Core Set 2020",
+    "scryfall_code": "m20",
+    "match_type": "exact"
+  },
+  "Core Set 2021": {
+    "tcgplayer_code": "M21",
+    "scryfall_name": "Core Set 2021",
+    "scryfall_code": "m21",
+    "match_type": "exact"
+  },
+  "Dark Ascension": {
+    "tcgplayer_code": "DKA",
+    "scryfall_name": "Dark Ascension",
+    "scryfall_code": "dka",
+    "match_type": "exact"
+  },
+  "Darksteel": {
+    "tcgplayer_code": "DST",
+    "scryfall_name": "Darksteel",
+    "scryfall_code": "dst",
+    "match_type": "exact"
+  },
+  "Deckmasters Garfield vs Finkel": {
+    "tcgplayer_code": "DKM",
+    "scryfall_name": "Eternal Masters",
+    "scryfall_code": "ema",
+    "match_type": "partial"
+  },
+  "Dissension": {
+    "tcgplayer_code": "DIS",
+    "scryfall_name": "Dissension",
+    "scryfall_code": "dis",
+    "match_type": "exact"
+  },
+  "Dominaria": {
+    "tcgplayer_code": "DOM",
+    "scryfall_name": "Dominaria",
+    "scryfall_code": "dom",
+    "match_type": "exact"
+  },
+  "Dominaria Remastered": {
+    "tcgplayer_code": "DMR",
+    "scryfall_name": "Dominaria Remastered",
+    "scryfall_code": "dmr",
+    "match_type": "exact"
+  },
+  "Dominaria United": {
+    "tcgplayer_code": "DMU",
+    "scryfall_name": "Dominaria United Commander",
+    "scryfall_code": "dmc",
+    "match_type": "exact"
+  },
+  "Double Masters": {
+    "tcgplayer_code": "2XM",
+    "scryfall_name": "Double Masters",
+    "scryfall_code": "2xm",
+    "match_type": "exact"
+  },
+  "Double Masters 2022": {
+    "tcgplayer_code": "2X2",
+    "scryfall_name": "Double Masters 2022",
+    "scryfall_code": "2x2",
+    "match_type": "exact"
+  },
+  "Dragon's Maze": {
+    "tcgplayer_code": "DGM",
+    "scryfall_name": "Dragon's Maze",
+    "scryfall_code": "dgm",
+    "match_type": "exact"
+  },
+  "Dragons of Tarkir": {
+    "tcgplayer_code": "DTK",
+    "scryfall_name": "Dragons of Tarkir",
+    "scryfall_code": "dtk",
+    "match_type": "exact"
+  },
+  "Duel Decks: Ajani vs. Nicol Bolas": {
+    "tcgplayer_code": "DDH",
+    "scryfall_name": "Duel Decks: Ajani vs. Nicol Bolas",
+    "scryfall_code": "ddh",
+    "match_type": "exact"
+  },
+  "Duel Decks: Anthology": {
+    "tcgplayer_code": "DD3",
+    "scryfall_name": "Commander Anthology",
+    "scryfall_code": "cma",
+    "match_type": "partial"
+  },
+  "Duel Decks: Blessed vs. Cursed": {
+    "tcgplayer_code": "DDQ",
+    "scryfall_name": "Duel Decks: Blessed vs. Cursed",
+    "scryfall_code": "ddq",
+    "match_type": "exact"
+  },
+  "Duel Decks: Divine vs. Demonic": {
+    "tcgplayer_code": "DDC",
+    "scryfall_name": "Duel Decks: Divine vs. Demonic",
+    "scryfall_code": "ddc",
+    "match_type": "exact"
+  },
+  "Duel Decks: Elspeth vs. Kiora": {
+    "tcgplayer_code": "DDO",
+    "scryfall_name": "Duel Decks: Elspeth vs. Kiora",
+    "scryfall_code": "ddo",
+    "match_type": "exact"
+  },
+  "Duel Decks: Elspeth vs. Tezzeret": {
+    "tcgplayer_code": "DDF",
+    "scryfall_name": "Duel Decks: Elspeth vs. Tezzeret",
+    "scryfall_code": "ddf",
+    "match_type": "exact"
+  },
+  "Duel Decks: Elves vs. Goblins": {
+    "tcgplayer_code": "EVG",
+    "scryfall_name": "Duel Decks: Elves vs. Goblins",
+    "scryfall_code": "dd1",
+    "match_type": "exact"
+  },
+  "Duel Decks: Elves vs. Inventors": {
+    "tcgplayer_code": "DDU",
+    "scryfall_name": "Duel Decks: Elves vs. Inventors",
+    "scryfall_code": "ddu",
+    "match_type": "exact"
+  },
+  "Duel Decks: Garruk vs. Liliana": {
+    "tcgplayer_code": "DDD",
+    "scryfall_name": "Duel Decks: Garruk vs. Liliana",
+    "scryfall_code": "ddd",
+    "match_type": "exact"
+  },
+  "Duel Decks: Heroes vs. Monsters": {
+    "tcgplayer_code": "DDL",
+    "scryfall_name": "Duel Decks: Heroes vs. Monsters",
+    "scryfall_code": "ddl",
+    "match_type": "exact"
+  },
+  "Duel Decks: Izzet vs. Golgari": {
+    "tcgplayer_code": "DDJ",
+    "scryfall_name": "Duel Decks: Izzet vs. Golgari",
+    "scryfall_code": "ddj",
+    "match_type": "exact"
+  },
+  "Duel Decks: Jace vs. Chandra": {
+    "tcgplayer_code": "DD2",
+    "scryfall_name": "Duel Decks: Jace vs. Chandra",
+    "scryfall_code": "dd2",
+    "match_type": "exact"
+  },
+  "Duel Decks: Jace vs. Vraska": {
+    "tcgplayer_code": "DDM",
+    "scryfall_name": "Duel Decks: Jace vs. Vraska",
+    "scryfall_code": "ddm",
+    "match_type": "exact"
+  },
+  "Duel Decks: Knights vs. Dragons": {
+    "tcgplayer_code": "DDG",
+    "scryfall_name": "Duel Decks: Knights vs. Dragons",
+    "scryfall_code": "ddg",
+    "match_type": "exact"
+  },
+  "Duel Decks: Merfolk vs. Goblins": {
+    "tcgplayer_code": "DDT",
+    "scryfall_name": "Duel Decks: Merfolk vs. Goblins",
+    "scryfall_code": "ddt",
+    "match_type": "exact"
+  },
+  "Duel Decks: Mind vs. Might": {
+    "tcgplayer_code": "DDS",
+    "scryfall_name": "Duel Decks: Mind vs. Might",
+    "scryfall_code": "dds",
+    "match_type": "exact"
+  },
+  "Duel Decks: Nissa vs. Ob Nixilis": {
+    "tcgplayer_code": "DDR",
+    "scryfall_name": "Duel Decks: Nissa vs. Ob Nixilis",
+    "scryfall_code": "ddr",
+    "match_type": "exact"
+  },
+  "Duel Decks: Phyrexia vs. the Coalition": {
+    "tcgplayer_code": "DDE",
+    "scryfall_name": "Duel Decks: Phyrexia vs. the Coalition",
+    "scryfall_code": "dde",
+    "match_type": "exact"
+  },
+  "Duel Decks: Sorin vs. Tibalt": {
+    "tcgplayer_code": "DDK",
+    "scryfall_name": "Duel Decks: Sorin vs. Tibalt",
+    "scryfall_code": "ddk",
+    "match_type": "exact"
+  },
+  "Duel Decks: Speed vs. Cunning": {
+    "tcgplayer_code": "DDN",
+    "scryfall_name": "Duel Decks: Speed vs. Cunning",
+    "scryfall_code": "ddn",
+    "match_type": "exact"
+  },
+  "Duel Decks: Venser vs. Koth": {
+    "tcgplayer_code": "DDI",
+    "scryfall_name": "Duel Decks: Venser vs. Koth",
+    "scryfall_code": "ddi",
+    "match_type": "exact"
+  },
+  "Duel Decks: Zendikar vs. Eldrazi": {
+    "tcgplayer_code": "DDP",
+    "scryfall_name": "Duel Decks: Zendikar vs. Eldrazi",
+    "scryfall_code": "ddp",
+    "match_type": "exact"
+  },
+  "Duels of the Planeswalkers": {
+    "tcgplayer_code": "DPA",
+    "scryfall_name": "Duels of the Planeswalkers",
+    "scryfall_code": "dpa",
+    "match_type": "exact"
+  },
+  "Duskmourn: House of Horror": {
+    "tcgplayer_code": "DSK",
+    "scryfall_name": "Duskmourn: House of Horror Commander",
+    "scryfall_code": "dsc",
+    "match_type": "exact"
+  },
+  "Edge of Eternities": {
+    "tcgplayer_code": "EOE",
+    "scryfall_name": "Edge of Eternities Commander",
+    "scryfall_code": "eoc",
+    "match_type": "exact"
+  },
+  "Edge of Eternities: Stellar Sights": {
+    "tcgplayer_code": "EOS",
+    "scryfall_name": "Edge of Eternities: Stellar Sights",
+    "scryfall_code": "eos",
+    "match_type": "exact"
+  },
+  "Eldritch Moon": {
+    "tcgplayer_code": "EMN",
+    "scryfall_name": "Eldritch Moon",
+    "scryfall_code": "emn",
+    "match_type": "exact"
+  },
+  "Eternal Masters": {
+    "tcgplayer_code": "EMA",
+    "scryfall_name": "Eternal Masters",
+    "scryfall_code": "ema",
+    "match_type": "exact"
+  },
+  "Eventide": {
+    "tcgplayer_code": "EVE",
+    "scryfall_name": "Eventide",
+    "scryfall_code": "eve",
+    "match_type": "exact"
+  },
+  "Exodus": {
+    "tcgplayer_code": "EXO",
+    "scryfall_name": "Exodus",
+    "scryfall_code": "exo",
+    "match_type": "exact"
+  },
+  "Explorers of Ixalan": {
+    "tcgplayer_code": "E02",
+    "scryfall_name": "Explorers of Ixalan",
+    "scryfall_code": "e02",
+    "match_type": "exact"
+  },
+  "Fallen Empires": {
+    "tcgplayer_code": "FEM",
+    "scryfall_name": "Fallen Empires",
+    "scryfall_code": "fem",
+    "match_type": "exact"
+  },
+  "Fate Reforged": {
+    "tcgplayer_code": "FRF",
+    "scryfall_name": "Fate Reforged",
+    "scryfall_code": "frf",
+    "match_type": "exact"
+  },
+  "Fifth Dawn": {
+    "tcgplayer_code": "5DN",
+    "scryfall_name": "Fifth Dawn",
+    "scryfall_code": "5dn",
+    "match_type": "exact"
+  },
+  "Fifth Edition": {
+    "tcgplayer_code": "5ED",
+    "scryfall_name": "Fifth Edition",
+    "scryfall_code": "5ed",
+    "match_type": "exact"
+  },
+  "FINAL FANTASY": {
+    "tcgplayer_code": "FIN",
+    "scryfall_name": "Final Fantasy Commander Art Series",
+    "scryfall_code": "afic",
+    "match_type": "exact"
+  },
+  "FINAL FANTASY: Through the Ages": {
+    "tcgplayer_code": "FCA",
+    "scryfall_name": "Final Fantasy: Through the Ages",
+    "scryfall_code": "fca",
+    "match_type": "exact"
+  },
+  "Foundations": {
+    "tcgplayer_code": "FDN",
+    "scryfall_name": "Foundations Commander",
+    "scryfall_code": "fdc",
+    "match_type": "exact"
+  },
+  "Foundations Jumpstart": {
+    "tcgplayer_code": "J25",
+    "scryfall_name": "Foundations Jumpstart",
+    "scryfall_code": "j25",
+    "match_type": "exact"
+  },
+  "Fourth Edition": {
+    "tcgplayer_code": "4ED",
+    "scryfall_name": "Fourth Edition",
+    "scryfall_code": "4ed",
+    "match_type": "exact"
+  },
+  "From the Vault: Angels": {
+    "tcgplayer_code": "V15",
+    "scryfall_name": "From the Vault: Angels",
+    "scryfall_code": "v15",
+    "match_type": "exact"
+  },
+  "From the Vault: Annihilation": {
+    "tcgplayer_code": "V14",
+    "scryfall_name": "From the Vault: Annihilation",
+    "scryfall_code": "v14",
+    "match_type": "exact"
+  },
+  "From the Vault: Dragons": {
+    "tcgplayer_code": "DRB",
+    "scryfall_name": "From the Vault: Dragons",
+    "scryfall_code": "drb",
+    "match_type": "exact"
+  },
+  "From the Vault: Exiled": {
+    "tcgplayer_code": "V09",
+    "scryfall_name": "From the Vault: Exiled",
+    "scryfall_code": "v09",
+    "match_type": "exact"
+  },
+  "From the Vault: Legends": {
+    "tcgplayer_code": "V11",
+    "scryfall_name": "From the Vault: Legends",
+    "scryfall_code": "v11",
+    "match_type": "exact"
+  },
+  "From the Vault: Lore": {
+    "tcgplayer_code": "V16",
+    "scryfall_name": "From the Vault: Lore",
+    "scryfall_code": "v16",
+    "match_type": "exact"
+  },
+  "From the Vault: Realms": {
+    "tcgplayer_code": "V12",
+    "scryfall_name": "From the Vault: Realms",
+    "scryfall_code": "v12",
+    "match_type": "exact"
+  },
+  "From the Vault: Relics": {
+    "tcgplayer_code": "V10",
+    "scryfall_name": "From the Vault: Relics",
+    "scryfall_code": "v10",
+    "match_type": "exact"
+  },
+  "From the Vault: Transform": {
+    "tcgplayer_code": "V17",
+    "scryfall_name": "From the Vault: Transform",
+    "scryfall_code": "v17",
+    "match_type": "exact"
+  },
+  "From the Vault: Twenty": {
+    "tcgplayer_code": "V13",
+    "scryfall_name": "From the Vault: Twenty",
+    "scryfall_code": "v13",
+    "match_type": "exact"
+  },
+  "Future Sight": {
+    "tcgplayer_code": "FUT",
+    "scryfall_name": "Future Sight",
+    "scryfall_code": "fut",
+    "match_type": "exact"
+  },
+  "Gatecrash": {
+    "tcgplayer_code": "GTC",
+    "scryfall_name": "Gatecrash",
+    "scryfall_code": "gtc",
+    "match_type": "exact"
+  },
+  "Global Series Jiang Yanggu & Mu Yanling": {
+    "tcgplayer_code": "GS1",
+    "scryfall_name": "Global Series Jiang Yanggu & Mu Yanling",
+    "scryfall_code": "gs1",
+    "match_type": "exact"
+  },
+  "Grand Prix Promos": {
+    "tcgplayer_code": "GPP",
+    "scryfall_name": "Grand Prix Promos",
+    "scryfall_code": "pgpx",
+    "match_type": "exact"
+  },
+  "Guildpact": {
+    "tcgplayer_code": "GPT",
+    "scryfall_name": "Guildpact",
+    "scryfall_code": "gpt",
+    "match_type": "exact"
+  },
+  "Guilds of Ravnica": {
+    "tcgplayer_code": "GRN",
+    "scryfall_name": "Guilds of Ravnica",
+    "scryfall_code": "grn",
+    "match_type": "exact"
+  },
+  "Guilds of Ravnica: Guild Kits": {
+    "tcgplayer_code": "GR1",
+    "scryfall_name": "Guilds of Ravnica",
+    "scryfall_code": "grn",
+    "match_type": "partial"
+  },
+  "Guru Lands": {
+    "tcgplayer_code": "GUR",
+    "scryfall_name": "Guru",
+    "scryfall_code": "pgru",
+    "match_type": "partial"
+  },
+  "Homelands": {
+    "tcgplayer_code": "HML",
+    "scryfall_name": "Homelands",
+    "scryfall_code": "hml",
+    "match_type": "exact"
+  },
+  "Hour of Devastation": {
+    "tcgplayer_code": "HOU",
+    "scryfall_name": "Hour of Devastation",
+    "scryfall_code": "hou",
+    "match_type": "exact"
+  },
+  "Ice Age": {
+    "tcgplayer_code": "ICE",
+    "scryfall_name": "Ice Age",
+    "scryfall_code": "ice",
+    "match_type": "exact"
+  },
+  "Iconic Masters": {
+    "tcgplayer_code": "IMA",
+    "scryfall_name": "Iconic Masters",
+    "scryfall_code": "ima",
+    "match_type": "exact"
+  },
+  "Ikoria: Lair of Behemoths": {
+    "tcgplayer_code": "IKO",
+    "scryfall_name": "Ikoria: Lair of Behemoths",
+    "scryfall_code": "iko",
+    "match_type": "exact"
+  },
+  "Innistrad": {
+    "tcgplayer_code": "ISD",
+    "scryfall_name": "Innistrad",
+    "scryfall_code": "isd",
+    "match_type": "exact"
+  },
+  "Innistrad Remastered": {
+    "tcgplayer_code": "INR",
+    "scryfall_name": "Innistrad Remastered Art Series",
+    "scryfall_code": "ainr",
+    "match_type": "exact"
+  },
+  "Innistrad: Crimson Vow": {
+    "tcgplayer_code": "VOW",
+    "scryfall_name": "Innistrad: Crimson Vow",
+    "scryfall_code": "vow",
+    "match_type": "exact"
+  },
+  "Innistrad: Double Feature": {
+    "tcgplayer_code": "DBL",
+    "scryfall_name": "Innistrad: Double Feature",
+    "scryfall_code": "dbl",
+    "match_type": "exact"
+  },
+  "Innistrad: Midnight Hunt": {
+    "tcgplayer_code": "MID",
+    "scryfall_name": "Innistrad: Midnight Hunt",
+    "scryfall_code": "mid",
+    "match_type": "exact"
+  },
+  "Introductory Two-Player Set": {
+    "tcgplayer_code": "2PS",
+    "scryfall_name": "Introductory Two-Player Set",
+    "scryfall_code": "itp",
+    "match_type": "exact"
+  },
+  "Invasion": {
+    "tcgplayer_code": "INV",
+    "scryfall_name": "Invasion",
+    "scryfall_code": "inv",
+    "match_type": "exact"
+  },
+  "Ixalan": {
+    "tcgplayer_code": "XLN",
+    "scryfall_name": "Ixalan",
+    "scryfall_code": "xln",
+    "match_type": "exact"
+  },
+  "Journey Into Nyx": {
+    "tcgplayer_code": "JOU",
+    "scryfall_name": "Journey into Nyx",
+    "scryfall_code": "jou",
+    "match_type": "exact"
+  },
+  "Judgment": {
+    "tcgplayer_code": "JUD",
+    "scryfall_name": "Judgment",
+    "scryfall_code": "jud",
+    "match_type": "exact"
+  },
+  "Jumpstart": {
+    "tcgplayer_code": "JMP",
+    "scryfall_name": "Jumpstart",
+    "scryfall_code": "jmp",
+    "match_type": "exact"
+  },
+  "Jumpstart 2022": {
+    "tcgplayer_code": "J22",
+    "scryfall_name": "Jumpstart 2022",
+    "scryfall_code": "j22",
+    "match_type": "exact"
+  },
+  "Kaladesh": {
+    "tcgplayer_code": "KLD",
+    "scryfall_name": "Kaladesh",
+    "scryfall_code": "kld",
+    "match_type": "exact"
+  },
+  "Kaldheim": {
+    "tcgplayer_code": "KHM",
+    "scryfall_name": "Kaldheim Commander",
+    "scryfall_code": "khc",
+    "match_type": "exact"
+  },
+  "Kamigawa: Neon Dynasty": {
+    "tcgplayer_code": "NEO",
+    "scryfall_name": "Kamigawa: Neon Dynasty",
+    "scryfall_code": "neo",
+    "match_type": "exact"
+  },
+  "Khans of Tarkir": {
+    "tcgplayer_code": "KTK",
+    "scryfall_name": "Khans of Tarkir",
+    "scryfall_code": "ktk",
+    "match_type": "exact"
+  },
+  "Legends": {
+    "tcgplayer_code": "LEG",
+    "scryfall_name": "Legends",
+    "scryfall_code": "leg",
+    "match_type": "exact"
+  },
+  "Legions": {
+    "tcgplayer_code": "LGN",
+    "scryfall_name": "Legions",
+    "scryfall_code": "lgn",
+    "match_type": "exact"
+  },
+  "Lorwyn": {
+    "tcgplayer_code": "LRW",
+    "scryfall_name": "Lorwyn",
+    "scryfall_code": "lrw",
+    "match_type": "exact"
+  },
+  "Lorwyn Eclipsed": {
+    "tcgplayer_code": "ECL",
+    "scryfall_name": "Lorwyn Eclipsed",
+    "scryfall_code": "ecl",
+    "match_type": "exact"
+  },
+  "Magic 2010 (M10)": {
+    "tcgplayer_code": "M10",
+    "scryfall_name": "Magic 2010",
+    "scryfall_code": "m10",
+    "match_type": "partial"
+  },
+  "Magic 2011 (M11)": {
+    "tcgplayer_code": "M11",
+    "scryfall_name": "Commander 2011",
+    "scryfall_code": "cmd",
+    "match_type": "partial"
+  },
+  "Magic 2012 (M12)": {
+    "tcgplayer_code": "M12",
+    "scryfall_name": "Magic 2012",
+    "scryfall_code": "m12",
+    "match_type": "partial"
+  },
+  "Magic 2013 (M13)": {
+    "tcgplayer_code": "M13",
+    "scryfall_name": "Commander 2013",
+    "scryfall_code": "c13",
+    "match_type": "partial"
+  },
+  "Magic 2014 (M14)": {
+    "tcgplayer_code": "M14",
+    "scryfall_name": "Commander 2014",
+    "scryfall_code": "c14",
+    "match_type": "partial"
+  },
+  "Magic 2015 (M15)": {
+    "tcgplayer_code": "M15",
+    "scryfall_name": "Commander 2015",
+    "scryfall_code": "c15",
+    "match_type": "partial"
+  },
+  "Magic Encyclopedia 2011 (Salvat)": {
+    "tcgplayer_code": "PS11",
+    "scryfall_name": "Commander 2011",
+    "scryfall_code": "cmd",
+    "match_type": "partial"
+  },
+  "Magic Game Night": {
+    "tcgplayer_code": "GNT",
+    "scryfall_name": "Game Night",
+    "scryfall_code": "gnt",
+    "match_type": "partial"
+  },
+  "Magic Game Night 2019": {
+    "tcgplayer_code": "GN2",
+    "scryfall_name": "Commander 2019",
+    "scryfall_code": "c19",
+    "match_type": "partial"
+  },
+  "Magic Game Night: Free-For-All": {
+    "tcgplayer_code": "GN3",
+    "scryfall_name": "Game Night",
+    "scryfall_code": "gnt",
+    "match_type": "partial"
+  },
+  "Magic Origins": {
+    "tcgplayer_code": "ORI",
+    "scryfall_name": "Magic Origins",
+    "scryfall_code": "ori",
+    "match_type": "exact"
+  },
+  "Magic Player Rewards": {
+    "tcgplayer_code": "MPRP",
+    "scryfall_name": "Magic Player Rewards 2001",
+    "scryfall_code": "mpr",
+    "match_type": "partial"
+  },
+  "Magic Premiere Shop": {
+    "tcgplayer_code": "PREM",
+    "scryfall_name": "Magic Premiere Shop 2005",
+    "scryfall_code": "pmps",
+    "match_type": "partial"
+  },
+  "March of the Machine": {
+    "tcgplayer_code": "MOM",
+    "scryfall_name": "March of the Machine Commander",
+    "scryfall_code": "moc",
+    "match_type": "exact"
+  },
+  "March of the Machine: Multiverse Legends": {
+    "tcgplayer_code": "MUL",
+    "scryfall_name": "Legends",
+    "scryfall_code": "leg",
+    "match_type": "partial"
+  },
+  "March of the Machine: The Aftermath": {
+    "tcgplayer_code": "MAT",
+    "scryfall_name": "March of the Machine: The Aftermath",
+    "scryfall_code": "mat",
+    "match_type": "exact"
+  },
+  "Marvel Super Heroes": {
+    "tcgplayer_code": "MSH",
+    "scryfall_name": "Marvel Super Heroes Commander",
+    "scryfall_code": "msc",
+    "match_type": "exact"
+  },
+  "Marvel Universe Eternal-Legal": {
+    "tcgplayer_code": "MAR",
+    "scryfall_name": "Marvel Universe",
+    "scryfall_code": "mar",
+    "match_type": "exact"
+  },
+  "Marvel's Spider-Man": {
+    "tcgplayer_code": "SPM",
+    "scryfall_name": "Marvel's Spider-Man Eternal",
+    "scryfall_code": "spe",
+    "match_type": "exact"
+  },
+  "Marvel's Spider-Man: Eternal-Legal": {
+    "tcgplayer_code": "SPE",
+    "scryfall_name": "Marvel's Spider-Man Eternal",
+    "scryfall_code": "spe",
+    "match_type": "exact"
+  },
+  "Masterpiece Series: Amonkhet Invocations": {
+    "tcgplayer_code": "MPS2",
+    "scryfall_name": "Amonkhet",
+    "scryfall_code": "akh",
+    "match_type": "partial"
+  },
+  "Masterpiece Series: Kaladesh Inventions": {
+    "tcgplayer_code": "MPS",
+    "scryfall_name": "Kaladesh",
+    "scryfall_code": "kld",
+    "match_type": "partial"
+  },
+  "Masters 25": {
+    "tcgplayer_code": "A25",
+    "scryfall_name": "Masters 25",
+    "scryfall_code": "a25",
+    "match_type": "exact"
+  },
+  "Mercadian Masques": {
+    "tcgplayer_code": "MMQ",
+    "scryfall_name": "Mercadian Masques",
+    "scryfall_code": "mmq",
+    "match_type": "exact"
+  },
+  "Mirage": {
+    "tcgplayer_code": "MIR",
+    "scryfall_name": "Mirage",
+    "scryfall_code": "mir",
+    "match_type": "exact"
+  },
+  "Mirrodin": {
+    "tcgplayer_code": "MRD",
+    "scryfall_name": "Mirrodin",
+    "scryfall_code": "mrd",
+    "match_type": "exact"
+  },
+  "Mirrodin Besieged": {
+    "tcgplayer_code": "MBS",
+    "scryfall_name": "Mirrodin Besieged",
+    "scryfall_code": "mbs",
+    "match_type": "exact"
+  },
+  "Modern Horizons": {
+    "tcgplayer_code": "MH1",
+    "scryfall_name": "Modern Horizons Art Series",
+    "scryfall_code": "amh1",
+    "match_type": "exact"
+  },
+  "Modern Horizons 2": {
+    "tcgplayer_code": "MH2",
+    "scryfall_name": "Modern Horizons 2 Art Series",
+    "scryfall_code": "amh2",
+    "match_type": "exact"
+  },
+  "Modern Horizons 3": {
+    "tcgplayer_code": "MH3",
+    "scryfall_name": "Modern Horizons 3 Commander",
+    "scryfall_code": "m3c",
+    "match_type": "exact"
+  },
+  "Modern Masters": {
+    "tcgplayer_code": "MMA",
+    "scryfall_name": "Modern Masters",
+    "scryfall_code": "mma",
+    "match_type": "exact"
+  },
+  "Modern Masters 2015": {
+    "tcgplayer_code": "MM2",
+    "scryfall_name": "Modern Masters 2015",
+    "scryfall_code": "mm2",
+    "match_type": "exact"
+  },
+  "Modern Masters 2017": {
+    "tcgplayer_code": "MM3",
+    "scryfall_name": "Modern Masters 2017",
+    "scryfall_code": "mm3",
+    "match_type": "exact"
+  },
+  "Morningtide": {
+    "tcgplayer_code": "MOR",
+    "scryfall_name": "Morningtide",
+    "scryfall_code": "mor",
+    "match_type": "exact"
+  },
+  "Murders at Karlov Manor": {
+    "tcgplayer_code": "MKM",
+    "scryfall_name": "Murders at Karlov Manor Commander",
+    "scryfall_code": "mkc",
+    "match_type": "exact"
+  },
+  "Mystery Booster 2": {
+    "tcgplayer_code": "MB2",
+    "scryfall_name": "Mystery Booster 2",
+    "scryfall_code": "mb2",
+    "match_type": "exact"
+  },
+  "Mystery Booster 2 Playtest Cards": {
+    "tcgplayer_code": "MB2PC",
+    "scryfall_name": "Mystery Booster 2",
+    "scryfall_code": "mb2",
+    "match_type": "partial"
+  },
+  "Mythic Edition: Guilds of Ravnica": {
+    "tcgplayer_code": "MED",
+    "scryfall_name": "Guilds of Ravnica",
+    "scryfall_code": "grn",
+    "match_type": "partial"
+  },
+  "Mythic Edition: Ravnica Allegiance": {
+    "tcgplayer_code": "MED2",
+    "scryfall_name": "Mythic Edition",
+    "scryfall_code": "med",
+    "match_type": "partial"
+  },
+  "Mythic Edition: War of the Spark": {
+    "tcgplayer_code": "MED3",
+    "scryfall_name": "Mythic Edition",
+    "scryfall_code": "med",
+    "match_type": "partial"
+  },
+  "Nemesis": {
+    "tcgplayer_code": "NMS",
+    "scryfall_name": "Nemesis",
+    "scryfall_code": "nem",
+    "match_type": "exact"
+  },
+  "New Phyrexia": {
+    "tcgplayer_code": "NPH",
+    "scryfall_name": "New Phyrexia",
+    "scryfall_code": "nph",
+    "match_type": "exact"
+  },
+  "Oath of the Gatewatch": {
+    "tcgplayer_code": "OGW",
+    "scryfall_name": "Oath of the Gatewatch",
+    "scryfall_code": "ogw",
+    "match_type": "exact"
+  },
+  "Odyssey": {
+    "tcgplayer_code": "ODY",
+    "scryfall_name": "Odyssey",
+    "scryfall_code": "ody",
+    "match_type": "exact"
+  },
+  "Onslaught": {
+    "tcgplayer_code": "ONS",
+    "scryfall_name": "Onslaught",
+    "scryfall_code": "ons",
+    "match_type": "exact"
+  },
+  "Outlaws of Thunder Junction": {
+    "tcgplayer_code": "OTJ",
+    "scryfall_name": "Outlaws of Thunder Junction Commander",
+    "scryfall_code": "otc",
+    "match_type": "exact"
+  },
+  "Outlaws of Thunder Junction: Breaking News": {
+    "tcgplayer_code": "OTP",
+    "scryfall_name": "Breaking News",
+    "scryfall_code": "otp",
+    "match_type": "partial"
+  },
+  "Outlaws of Thunder Junction: The Big Score": {
+    "tcgplayer_code": "BIG",
+    "scryfall_name": "Outlaws of Thunder Junction Commander",
+    "scryfall_code": "otc",
+    "match_type": "partial"
+  },
+  "Phyrexia: All Will Be One": {
+    "tcgplayer_code": "ONE",
+    "scryfall_name": "Phyrexia: All Will Be One Commander",
+    "scryfall_code": "onc",
+    "match_type": "exact"
+  },
+  "Planar Chaos": {
+    "tcgplayer_code": "PLC",
+    "scryfall_name": "Planar Chaos",
+    "scryfall_code": "plc",
+    "match_type": "exact"
+  },
+  "Planechase": {
+    "tcgplayer_code": "HOP",
+    "scryfall_name": "Planechase",
+    "scryfall_code": "hop",
+    "match_type": "exact"
+  },
+  "Planechase 2012": {
+    "tcgplayer_code": "PC2",
+    "scryfall_name": "Planechase 2012",
+    "scryfall_code": "pc2",
+    "match_type": "exact"
+  },
+  "Planechase Anthology": {
+    "tcgplayer_code": "PCA",
+    "scryfall_name": "Planechase Anthology",
+    "scryfall_code": "pca",
+    "match_type": "exact"
+  },
+  "Planechase: March of the Machine": {
+    "tcgplayer_code": "MOC",
+    "scryfall_name": "March of the Machine Commander",
+    "scryfall_code": "moc",
+    "match_type": "partial"
+  },
+  "Planechase: Universes Beyond: Doctor Who": {
+    "tcgplayer_code": "WHO",
+    "scryfall_name": "Doctor Who",
+    "scryfall_code": "who",
+    "match_type": "partial"
+  },
+  "Planeshift": {
+    "tcgplayer_code": "PLS",
+    "scryfall_name": "Planeshift",
+    "scryfall_code": "pls",
+    "match_type": "exact"
+  },
+  "Play Promos": {
+    "tcgplayer_code": "PLAY",
+    "scryfall_name": "30th Anniversary Play Promos",
+    "scryfall_code": "p30a",
+    "match_type": "partial"
+  },
+  "Ponies: The Galloping": {
+    "tcgplayer_code": "PTG",
+    "scryfall_name": "Ponies: The Galloping",
+    "scryfall_code": "ptg",
+    "match_type": "exact"
+  },
+  "Portal": {
+    "tcgplayer_code": "POR",
+    "scryfall_name": "Portal",
+    "scryfall_code": "por",
+    "match_type": "exact"
+  },
+  "Portal Second Age": {
+    "tcgplayer_code": "P02",
+    "scryfall_name": "Portal Second Age",
+    "scryfall_code": "p02",
+    "match_type": "exact"
+  },
+  "Portal Three Kingdoms": {
+    "tcgplayer_code": "PTK",
+    "scryfall_name": "Portal Three Kingdoms",
+    "scryfall_code": "ptk",
+    "match_type": "exact"
+  },
+  "Premium Deck Series: Fire and Lightning": {
+    "tcgplayer_code": "PD2",
+    "scryfall_name": "Premium Deck Series: Fire and Lightning",
+    "scryfall_code": "pd2",
+    "match_type": "exact"
+  },
+  "Premium Deck Series: Graveborn": {
+    "tcgplayer_code": "GRV",
+    "scryfall_name": "Premium Deck Series: Graveborn",
+    "scryfall_code": "pd3",
+    "match_type": "exact"
+  },
+  "Premium Deck Series: Slivers": {
+    "tcgplayer_code": "PDS",
+    "scryfall_name": "Premium Deck Series: Slivers",
+    "scryfall_code": "h09",
+    "match_type": "exact"
+  },
+  "Pro Tour Promos": {
+    "tcgplayer_code": "PTP",
+    "scryfall_name": "Pro Tour Promos",
+    "scryfall_code": "ppro",
+    "match_type": "exact"
+  },
+  "Promo Pack: Adventures in the Forgotten Realms": {
+    "tcgplayer_code": "PPAFR",
+    "scryfall_name": "Adventures in the Forgotten Realms Art Series",
+    "scryfall_code": "aafr",
+    "match_type": "partial"
+  },
+  "Promo Pack: Aetherdrift": {
+    "tcgplayer_code": "PPDFT",
+    "scryfall_name": "Aetherdrift Commander",
+    "scryfall_code": "drc",
+    "match_type": "partial"
+  },
+  "Promo Pack: Bloomburrow": {
+    "tcgplayer_code": "PPBLB",
+    "scryfall_name": "Bloomburrow Commander",
+    "scryfall_code": "blc",
+    "match_type": "partial"
+  },
+  "Promo Pack: Core Set 2020": {
+    "tcgplayer_code": "PPM20",
+    "scryfall_name": "Commander 2020",
+    "scryfall_code": "c20",
+    "match_type": "partial"
+  },
+  "Promo Pack: Core Set 2021": {
+    "tcgplayer_code": "PPM21",
+    "scryfall_name": "Commander 2021",
+    "scryfall_code": "c21",
+    "match_type": "partial"
+  },
+  "Promo Pack: Dominaria United": {
+    "tcgplayer_code": "PPDMU",
+    "scryfall_name": "Dominaria",
+    "scryfall_code": "dom",
+    "match_type": "partial"
+  },
+  "Promo Pack: Duskmourn: House of Horror": {
+    "tcgplayer_code": "PPDSK",
+    "scryfall_name": "Duskmourn: House of Horror Commander",
+    "scryfall_code": "dsc",
+    "match_type": "partial"
+  },
+  "Promo Pack: Edge of Eternities": {
+    "tcgplayer_code": "PPEOE",
+    "scryfall_name": "Edge of Eternities Commander",
+    "scryfall_code": "eoc",
+    "match_type": "partial"
+  },
+  "Promo Pack: Innistrad: Midnight Hunt": {
+    "tcgplayer_code": "PPMID",
+    "scryfall_name": "Innistrad",
+    "scryfall_code": "isd",
+    "match_type": "partial"
+  },
+  "Promo Pack: Kaldheim": {
+    "tcgplayer_code": "PPKHM",
+    "scryfall_name": "Kaldheim Commander",
+    "scryfall_code": "khc",
+    "match_type": "partial"
+  },
+  "Promo Pack: Kamigawa: Neon Dynasty": {
+    "tcgplayer_code": "PPNEO",
+    "scryfall_name": "Kamigawa: Neon Dynasty",
+    "scryfall_code": "neo",
+    "match_type": "partial"
+  },
+  "Promo Pack: Lorwyn Eclipsed": {
+    "tcgplayer_code": "PPECL",
+    "scryfall_name": "Lorwyn",
+    "scryfall_code": "lrw",
+    "match_type": "partial"
+  },
+  "Promo Pack: March of the Machine": {
+    "tcgplayer_code": "PPMOM",
+    "scryfall_name": "March of the Machine Commander",
+    "scryfall_code": "moc",
+    "match_type": "partial"
+  },
+  "Promo Pack: Murders at Karlov Manor": {
+    "tcgplayer_code": "PPMKM",
+    "scryfall_name": "Murders at Karlov Manor Commander",
+    "scryfall_code": "mkc",
+    "match_type": "partial"
+  },
+  "Promo Pack: Outlaws of Thunder Junction": {
+    "tcgplayer_code": "PPOTJ",
+    "scryfall_name": "Outlaws of Thunder Junction Commander",
+    "scryfall_code": "otc",
+    "match_type": "partial"
+  },
+  "Promo Pack: Phyrexia: All Will Be One": {
+    "tcgplayer_code": "PPONE",
+    "scryfall_name": "Phyrexia: All Will Be One Commander",
+    "scryfall_code": "onc",
+    "match_type": "partial"
+  },
+  "Promo Pack: Streets of New Capenna": {
+    "tcgplayer_code": "PPSNC",
+    "scryfall_name": "New Capenna Commander",
+    "scryfall_code": "ncc",
+    "match_type": "partial"
+  },
+  "Promo Pack: Strixhaven": {
+    "tcgplayer_code": "PPSTX",
+    "scryfall_name": "Strixhaven Art Series",
+    "scryfall_code": "astx",
+    "match_type": "partial"
+  },
+  "Promo Pack: Tarkir: Dragonstorm": {
+    "tcgplayer_code": "PPTDM",
+    "scryfall_name": "Tarkir: Dragonstorm Commander",
+    "scryfall_code": "tdc",
+    "match_type": "partial"
+  },
+  "Promo Pack: The Brothers' War": {
+    "tcgplayer_code": "PPBRO",
+    "scryfall_name": "The Brothers' War Commander",
+    "scryfall_code": "brc",
+    "match_type": "partial"
+  },
+  "Promo Pack: The Lost Caverns of Ixalan": {
+    "tcgplayer_code": "PPLCI",
+    "scryfall_name": "Ixalan",
+    "scryfall_code": "xln",
+    "match_type": "partial"
+  },
+  "Promo Pack: Theros Beyond Death": {
+    "tcgplayer_code": "PPTHB",
+    "scryfall_name": "Theros",
+    "scryfall_code": "ths",
+    "match_type": "partial"
+  },
+  "Promo Pack: Throne of Eldraine": {
+    "tcgplayer_code": "PPELD",
+    "scryfall_name": "Throne of Eldraine",
+    "scryfall_code": "eld",
+    "match_type": "partial"
+  },
+  "Promo Pack: Wilds of Eldraine": {
+    "tcgplayer_code": "PPWOE",
+    "scryfall_name": "Wilds of Eldraine Commander",
+    "scryfall_code": "woc",
+    "match_type": "partial"
+  },
+  "Promo Pack: Zendikar Rising": {
+    "tcgplayer_code": "PPZNR",
+    "scryfall_name": "Zendikar",
+    "scryfall_code": "zen",
+    "match_type": "partial"
+  },
+  "Prophecy": {
+    "tcgplayer_code": "PCY",
+    "scryfall_name": "Prophecy",
+    "scryfall_code": "pcy",
+    "match_type": "exact"
+  },
+  "Ravnica Allegiance": {
+    "tcgplayer_code": "RNA",
+    "scryfall_name": "Ravnica Allegiance",
+    "scryfall_code": "rna",
+    "match_type": "exact"
+  },
+  "Ravnica Allegiance: Guild Kits": {
+    "tcgplayer_code": "GK2",
+    "scryfall_name": "Ravnica Allegiance",
+    "scryfall_code": "rna",
+    "match_type": "partial"
+  },
+  "Ravnica Remastered": {
+    "tcgplayer_code": "RVR",
+    "scryfall_name": "Ravnica Remastered",
+    "scryfall_code": "rvr",
+    "match_type": "exact"
+  },
+  "Ravnica: City of Guilds": {
+    "tcgplayer_code": "RAV",
+    "scryfall_name": "Ravnica: City of Guilds",
+    "scryfall_code": "rav",
+    "match_type": "exact"
+  },
+  "Ravnica: Clue Edition": {
+    "tcgplayer_code": "CLU",
+    "scryfall_name": "Ravnica: Clue Edition",
+    "scryfall_code": "clu",
+    "match_type": "exact"
+  },
+  "Renaissance": {
+    "tcgplayer_code": "REN",
+    "scryfall_name": "Renaissance",
+    "scryfall_code": "ren",
+    "match_type": "exact"
+  },
+  "Return to Ravnica": {
+    "tcgplayer_code": "RTR",
+    "scryfall_name": "Return to Ravnica",
+    "scryfall_code": "rtr",
+    "match_type": "exact"
+  },
+  "Revised Edition": {
+    "tcgplayer_code": "3ED",
+    "scryfall_name": "Revised Edition",
+    "scryfall_code": "3ed",
+    "match_type": "exact"
+  },
+  "Rise of the Eldrazi": {
+    "tcgplayer_code": "ROE",
+    "scryfall_name": "Rise of the Eldrazi",
+    "scryfall_code": "roe",
+    "match_type": "exact"
+  },
+  "Rivals of Ixalan": {
+    "tcgplayer_code": "RIX",
+    "scryfall_name": "Rivals of Ixalan",
+    "scryfall_code": "rix",
+    "match_type": "exact"
+  },
+  "Rivals Quick Start Set": {
+    "tcgplayer_code": "RQS",
+    "scryfall_name": "Rivals Quick Start Set",
+    "scryfall_code": "rqs",
+    "match_type": "exact"
+  },
+  "Saviors of Kamigawa": {
+    "tcgplayer_code": "SOK",
+    "scryfall_name": "Saviors of Kamigawa",
+    "scryfall_code": "sok",
+    "match_type": "exact"
+  },
+  "Scars of Mirrodin": {
+    "tcgplayer_code": "SOM",
+    "scryfall_name": "Scars of Mirrodin",
+    "scryfall_code": "som",
+    "match_type": "exact"
+  },
+  "Scourge": {
+    "tcgplayer_code": "SCG",
+    "scryfall_name": "Scourge",
+    "scryfall_code": "scg",
+    "match_type": "exact"
+  },
+  "Secret Lair Countdown Kit": {
+    "tcgplayer_code": "SLC",
+    "scryfall_name": "Secret Lair Countdown",
+    "scryfall_code": "slc",
+    "match_type": "partial"
+  },
+  "Secret Lair Drop Series": {
+    "tcgplayer_code": "SLD",
+    "scryfall_name": "Secret Lair Drop",
+    "scryfall_code": "sld",
+    "match_type": "partial"
+  },
+  "Shadowmoor": {
+    "tcgplayer_code": "SHM",
+    "scryfall_name": "Shadowmoor",
+    "scryfall_code": "shm",
+    "match_type": "exact"
+  },
+  "Shadows over Innistrad": {
+    "tcgplayer_code": "SOI",
+    "scryfall_name": "Shadows over Innistrad",
+    "scryfall_code": "soi",
+    "match_type": "exact"
+  },
+  "Shards of Alara": {
+    "tcgplayer_code": "ALA",
+    "scryfall_name": "Shards of Alara",
+    "scryfall_code": "ala",
+    "match_type": "exact"
+  },
+  "Signature Spellbook: Chandra": {
+    "tcgplayer_code": "SS3",
+    "scryfall_name": "Signature Spellbook: Chandra",
+    "scryfall_code": "ss3",
+    "match_type": "exact"
+  },
+  "Signature Spellbook: Gideon": {
+    "tcgplayer_code": "SS2",
+    "scryfall_name": "Signature Spellbook: Gideon",
+    "scryfall_code": "ss2",
+    "match_type": "exact"
+  },
+  "Signature Spellbook: Jace": {
+    "tcgplayer_code": "SS1",
+    "scryfall_name": "Signature Spellbook: Jace",
+    "scryfall_code": "ss1",
+    "match_type": "exact"
+  },
+  "Special Guests": {
+    "tcgplayer_code": "SPG",
+    "scryfall_name": "Special Guests",
+    "scryfall_code": "spg",
+    "match_type": "exact"
+  },
+  "Starter 1999": {
+    "tcgplayer_code": "S99",
+    "scryfall_name": "Starter 1999",
+    "scryfall_code": "s99",
+    "match_type": "exact"
+  },
+  "Starter 2000": {
+    "tcgplayer_code": "S00",
+    "scryfall_name": "Starter 2000",
+    "scryfall_code": "s00",
+    "match_type": "exact"
+  },
+  "Starter Commander Decks": {
+    "tcgplayer_code": "SCD",
+    "scryfall_name": "Starter Commander Decks",
+    "scryfall_code": "scd",
+    "match_type": "exact"
+  },
+  "Streets of New Capenna": {
+    "tcgplayer_code": "SNC",
+    "scryfall_name": "Streets of New Capenna",
+    "scryfall_code": "snc",
+    "match_type": "exact"
+  },
+  "Strixhaven: Mystical Archives": {
+    "tcgplayer_code": "STA",
+    "scryfall_name": "Strixhaven Art Series",
+    "scryfall_code": "astx",
+    "match_type": "partial"
+  },
+  "Strixhaven: School of Mages": {
+    "tcgplayer_code": "STX",
+    "scryfall_name": "Strixhaven: School of Mages",
+    "scryfall_code": "stx",
+    "match_type": "exact"
+  },
+  "Stronghold": {
+    "tcgplayer_code": "STH",
+    "scryfall_name": "Stronghold",
+    "scryfall_code": "sth",
+    "match_type": "exact"
+  },
+  "Summer Magic": {
+    "tcgplayer_code": "SUM",
+    "scryfall_name": "Summer Magic / Edgar",
+    "scryfall_code": "sum",
+    "match_type": "partial"
+  },
+  "Tarkir Dragonfury Promos": {
+    "tcgplayer_code": "TDP",
+    "scryfall_name": "Tarkir Dragonfury",
+    "scryfall_code": "ptkdf",
+    "match_type": "partial"
+  },
+  "Tarkir: Dragonstorm": {
+    "tcgplayer_code": "TDM",
+    "scryfall_name": "Tarkir: Dragonstorm Commander",
+    "scryfall_code": "tdc",
+    "match_type": "exact"
+  },
+  "Teenage Mutant Ninja Turtles": {
+    "tcgplayer_code": "TMT",
+    "scryfall_name": "Teenage Mutant Ninja Turtles Eternal",
+    "scryfall_code": "tmc",
+    "match_type": "exact"
+  },
+  "Teenage Mutant Ninja Turtles Eternal-Legal": {
+    "tcgplayer_code": "PZA",
+    "scryfall_name": "Teenage Mutant Ninja Turtles Eternal",
+    "scryfall_code": "tmc",
+    "match_type": "exact"
+  },
+  "Tempest": {
+    "tcgplayer_code": "TMP",
+    "scryfall_name": "Tempest",
+    "scryfall_code": "tmp",
+    "match_type": "exact"
+  },
+  "The Brothers' War": {
+    "tcgplayer_code": "BRO",
+    "scryfall_name": "The Brothers' War Commander",
+    "scryfall_code": "brc",
+    "match_type": "exact"
+  },
+  "The Brothers' War: Retro Frame Artifacts": {
+    "tcgplayer_code": "BRR",
+    "scryfall_name": "The Brothers' War Commander",
+    "scryfall_code": "brc",
+    "match_type": "partial"
+  },
+  "The Dark": {
+    "tcgplayer_code": "DRK",
+    "scryfall_name": "The Dark",
+    "scryfall_code": "drk",
+    "match_type": "exact"
+  },
+  "The List Reprints": {
+    "tcgplayer_code": "LIST",
+    "scryfall_name": "The List",
+    "scryfall_code": "plst",
+    "match_type": "partial"
+  },
+  "The Lost Caverns of Ixalan": {
+    "tcgplayer_code": "LCI",
+    "scryfall_name": "The Lost Caverns of Ixalan Commander",
+    "scryfall_code": "lcc",
+    "match_type": "exact"
+  },
+  "Theros": {
+    "tcgplayer_code": "THS",
+    "scryfall_name": "Theros",
+    "scryfall_code": "ths",
+    "match_type": "exact"
+  },
+  "Theros Beyond Death": {
+    "tcgplayer_code": "THB",
+    "scryfall_name": "Theros Beyond Death",
+    "scryfall_code": "thb",
+    "match_type": "exact"
+  },
+  "Throne of Eldraine": {
+    "tcgplayer_code": "ELD",
+    "scryfall_name": "Throne of Eldraine",
+    "scryfall_code": "eld",
+    "match_type": "exact"
+  },
+  "Time Spiral": {
+    "tcgplayer_code": "TSP",
+    "scryfall_name": "Time Spiral",
+    "scryfall_code": "tsp",
+    "match_type": "exact"
+  },
+  "Time Spiral: Remastered": {
+    "tcgplayer_code": "TSR",
+    "scryfall_name": "Time Spiral Remastered",
+    "scryfall_code": "tsr",
+    "match_type": "exact"
+  },
+  "Timeshifted": {
+    "tcgplayer_code": "TSB",
+    "scryfall_name": "Time Spiral Timeshifted",
+    "scryfall_code": "tsb",
+    "match_type": "partial"
+  },
+  "Torment": {
+    "tcgplayer_code": "TOR",
+    "scryfall_name": "Torment",
+    "scryfall_code": "tor",
+    "match_type": "exact"
+  },
+  "Ugin's Fate Promos": {
+    "tcgplayer_code": "FRF_UGIN",
+    "scryfall_name": "Ugin's Fate",
+    "scryfall_code": "ugin",
+    "match_type": "partial"
+  },
+  "Ultimate Masters": {
+    "tcgplayer_code": "UMA",
+    "scryfall_name": "Ultimate Masters",
+    "scryfall_code": "uma",
+    "match_type": "exact"
+  },
+  "Ultimate Masters: Box Toppers": {
+    "tcgplayer_code": "UMA:BT",
+    "scryfall_name": "Eternal Masters",
+    "scryfall_code": "ema",
+    "match_type": "partial"
+  },
+  "Unfinity": {
+    "tcgplayer_code": "UNF",
+    "scryfall_name": "Unfinity",
+    "scryfall_code": "unf",
+    "match_type": "exact"
+  },
+  "Unglued": {
+    "tcgplayer_code": "UGL",
+    "scryfall_name": "Unglued",
+    "scryfall_code": "ugl",
+    "match_type": "exact"
+  },
+  "Unhinged": {
+    "tcgplayer_code": "UNH",
+    "scryfall_name": "Unhinged",
+    "scryfall_code": "unh",
+    "match_type": "exact"
+  },
+  "Universes Beyond: Assassin's Creed": {
+    "tcgplayer_code": "ACR",
+    "scryfall_name": "Assassin's Creed Art Series",
+    "scryfall_code": "aacr",
+    "match_type": "exact"
+  },
+  "Universes Beyond: Doctor Who": {
+    "tcgplayer_code": "WHO",
+    "scryfall_name": "Doctor Who",
+    "scryfall_code": "who",
+    "match_type": "exact"
+  },
+  "Universes Beyond: Fallout": {
+    "tcgplayer_code": "PIP",
+    "scryfall_name": "Fallout",
+    "scryfall_code": "pip",
+    "match_type": "exact"
+  },
+  "Universes Beyond: Jurassic World Collection": {
+    "tcgplayer_code": "REX",
+    "scryfall_name": "Jurassic World Collection",
+    "scryfall_code": "rex",
+    "match_type": "exact"
+  },
+  "Universes Beyond: The Lord of the Rings: Tales of Middle-earth": {
+    "tcgplayer_code": "LTR",
+    "scryfall_name": "The Lord of the Rings: Tales of Middle-earth",
+    "scryfall_code": "ltr",
+    "match_type": "exact"
+  },
+  "Universes Beyond: Transformers": {
+    "tcgplayer_code": "BOT",
+    "scryfall_name": "Transformers",
+    "scryfall_code": "bot",
+    "match_type": "exact"
+  },
+  "Universes Beyond: Warhammer 40,000": {
+    "tcgplayer_code": "40K",
+    "scryfall_name": "Warhammer 40,000 Commander",
+    "scryfall_code": "40k",
+    "match_type": "exact"
+  },
+  "Unlimited Edition": {
+    "tcgplayer_code": "2ED",
+    "scryfall_name": "Unlimited Edition",
+    "scryfall_code": "2ed",
+    "match_type": "exact"
+  },
+  "Unsanctioned": {
+    "tcgplayer_code": "UND",
+    "scryfall_name": "Unsanctioned",
+    "scryfall_code": "und",
+    "match_type": "exact"
+  },
+  "Unstable": {
+    "tcgplayer_code": "UST",
+    "scryfall_name": "Unstable",
+    "scryfall_code": "ust",
+    "match_type": "exact"
+  },
+  "Urza's Destiny": {
+    "tcgplayer_code": "UDS",
+    "scryfall_name": "Urza's Destiny",
+    "scryfall_code": "uds",
+    "match_type": "exact"
+  },
+  "Urza's Legacy": {
+    "tcgplayer_code": "ULG",
+    "scryfall_name": "Urza's Legacy",
+    "scryfall_code": "ulg",
+    "match_type": "exact"
+  },
+  "Urza's Saga": {
+    "tcgplayer_code": "USG",
+    "scryfall_name": "Urza's Saga",
+    "scryfall_code": "usg",
+    "match_type": "exact"
+  },
+  "Vanguard": {
+    "tcgplayer_code": "VNG",
+    "scryfall_name": "Vanguard Series",
+    "scryfall_code": "pvan",
+    "match_type": "partial"
+  },
+  "Visions": {
+    "tcgplayer_code": "VIS",
+    "scryfall_name": "Visions",
+    "scryfall_code": "vis",
+    "match_type": "exact"
+  },
+  "War of the Spark": {
+    "tcgplayer_code": "WAR",
+    "scryfall_name": "War of the Spark",
+    "scryfall_code": "war",
+    "match_type": "exact"
+  },
+  "Weatherlight": {
+    "tcgplayer_code": "WTH",
+    "scryfall_name": "Weatherlight",
+    "scryfall_code": "wth",
+    "match_type": "exact"
+  },
+  "Welcome Deck 2016": {
+    "tcgplayer_code": "W16",
+    "scryfall_name": "Welcome Deck 2016",
+    "scryfall_code": "w16",
+    "match_type": "exact"
+  },
+  "Welcome Deck 2017": {
+    "tcgplayer_code": "W17",
+    "scryfall_name": "Welcome Deck 2017",
+    "scryfall_code": "w17",
+    "match_type": "exact"
+  },
+  "Wilds of Eldraine": {
+    "tcgplayer_code": "WOE",
+    "scryfall_name": "Wilds of Eldraine Commander",
+    "scryfall_code": "woc",
+    "match_type": "exact"
+  },
+  "Wilds of Eldraine: Enchanting Tales": {
+    "tcgplayer_code": "WOT",
+    "scryfall_name": "Wilds of Eldraine: Enchanting Tales",
+    "scryfall_code": "wot",
+    "match_type": "exact"
+  },
+  "World Championship Decks": {
+    "tcgplayer_code": "WCD",
+    "scryfall_name": "World Championship Decks 1997",
+    "scryfall_code": "wc97",
+    "match_type": "partial"
+  },
+  "Worldwake": {
+    "tcgplayer_code": "WWK",
+    "scryfall_name": "Worldwake",
+    "scryfall_code": "wwk",
+    "match_type": "exact"
+  },
+  "Zendikar": {
+    "tcgplayer_code": "ZEN",
+    "scryfall_name": "Zendikar",
+    "scryfall_code": "zen",
+    "match_type": "exact"
+  },
+  "Zendikar Expeditions": {
+    "tcgplayer_code": "EXP",
+    "scryfall_name": "Zendikar Expeditions",
+    "scryfall_code": "exp",
+    "match_type": "exact"
+  },
+  "Zendikar Rising": {
+    "tcgplayer_code": "ZNR",
+    "scryfall_name": "Zendikar Rising Commander",
+    "scryfall_code": "znc",
+    "match_type": "exact"
+  },
+  "Zendikar Rising Expeditions": {
+    "tcgplayer_code": "ZNE",
+    "scryfall_name": "Zendikar Rising Expeditions",
+    "scryfall_code": "zne",
+    "match_type": "exact"
+  }
+}
