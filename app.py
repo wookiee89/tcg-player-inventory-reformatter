@@ -341,7 +341,7 @@ def make_printable_checklist(df):
     date_str = dt.datetime.now().strftime("%Y-%m-%d")
     # HTML with print styles
     rows_html = "\n".join([
-        f"<tr><td class='cb'>☐</td><td>{(r['Set'])}</td><td>{(r['Product Name'])}</td><td>{r['Foil']}{' (' + r['Pokemon Holofoil'] + ')' if r['Pokemon Holofoil'] else ''}</td><td>{(r['Color'])}</td><td>{(r['Quantity'])}</td><td>{(r['Number'])}</td><td>{(r['Product Line'])}</td></tr>"
+        f"<tr><td class='cb'>☐</td><td>{(r['Quantity'])}</td><td>{r['Foil']}{' (' + r['Pokemon Holofoil'] + ')' if r['Pokemon Holofoil'] else ''}</td><td>{(r['Product Name'])}</td><td>{(r['Color'])}</td><td>{(r['Set'])}</td><td>{(r['Number'])}</td><td>{(r['Product Line'])}</td></tr>"
         for _, r in out.iterrows()
     ])
 
@@ -372,7 +372,7 @@ def make_printable_checklist(df):
 </div>
 <table>
   <thead>
-    <tr><th>✓</th><th>Set</th><th>Product Name</th><th>Foiled</th><th>Color</th><th>Quantity</th><th>Number</th><th>Product Line</th></tr>
+    <tr><th>✓</th><th>Quantity</th><th>Foiled</th><th>Product Name</th><th>Color</th><th>Set</th><th>Number</th><th>Product Line</th></tr>
   </thead>
   <tbody>
 {rows_html}
