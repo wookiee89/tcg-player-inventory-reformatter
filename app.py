@@ -306,7 +306,7 @@ def make_printable_checklist(df):
         safe_df["Pokemon Holofoil"] = ""
     out = safe_df[cols + ["Foil", "Pokemon Holofoil"]].copy()
     
-    # Sort by Product Line, Set, Color, then Foil type
+    # Sort by Set, Foiled, Product Name, Color
     # Create a sort key for foil type: non-foil first, then foil, then holofoil types
     def get_foil_sort_key(row):
         foil_type = str(row.get("Pokemon Holofoil", "")).strip()
@@ -323,7 +323,7 @@ def make_printable_checklist(df):
     
     out["_foil_sort"] = out.apply(get_foil_sort_key, axis=1)
     out = out.sort_values(
-        by=["Product Line", "Set", "Color", "_foil_sort"],
+        by=["Set", "_foil_sort", "Product Name", "Color"],
         ascending=[True, True, True, True],
         na_position="last"
     )
